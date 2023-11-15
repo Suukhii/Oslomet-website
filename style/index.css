@@ -1,5 +1,18 @@
+.grid {
+    display: grid;
+    grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
+    grid-auto-rows: 30vh,30vh,30vh,30vh;
+}
+.griditem{
+    border: 4px,solid,brown;
+    font-size: 15px;
+    padding: 3cm;
+}
 :root {
     --nav--col: blue:var(--nav--col)
+}
+header{
+    background-color: aqua;
 }
 body {
     margin: 5;
@@ -10,14 +23,18 @@ body {
 h1, h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
+    font-style: italic;
 }
 /* Styling for main */
 main {
     max-width: 80 vw;
+    margin: auto;
+    padding: auto;
+    text-align: left;
 }
-
-.grid {
-    display: grid;
-    grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
-    grid-auto-rows: minmax(100px, auto);
+.navbar{
+    width: 30vw;
+    height: 300px;
+    margin: 5px,black;
+    
 }
