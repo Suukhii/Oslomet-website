@@ -4,9 +4,15 @@
     grid-template-columns: 300px 300px auto auto;
     padding: 10px;
     background-color: blanchedalmond;
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/baldurs-gate-3/4/49/Backstory_Karlach_2.png?width=814);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .griditem{
-    background-color: rgba(127, 146, 255, 0.671);
+    background-color: rgba(168, 180, 247, 0.068);
     color: #000;
     border: 5px,solid, black;
     font-size: 15px;
@@ -23,16 +29,17 @@
 }
 
 header{
-    background-color: #333;
-    color: #fff;
+    background-color:purple;
+    color: whitesmoke;
     text-align: center;
     padding: 10px;
 }
 body {
     margin: 5;
     padding: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
+    background-color:palevioletred;
 }
 h1, h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -45,12 +52,6 @@ main {
     margin: auto;
     padding: auto;
     text-align: left;
-}
-.navbar{
-    width: 30vw;
-    height: 300px;
-    margin: 5px,black;
-    
 }
 .image {
     width: 300px; /* Set the width of the box */
@@ -69,4 +70,27 @@ main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: beige;
     font-size: larger;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2c3e50;
 }
