@@ -27,7 +27,7 @@ link to our website: https://suukhii.github.io/Oslomet-website/
 ## Contributors
 
 <div>
-        <u>Group Members in <a href="inspera">Inspera .group</a>:</u> 
+        <u>Group Members in <a href="https://oslomet.inspera.no/#list/183086643">Inspera group</a>:</u> 
         <ul>
             <li>Sukhmani (<a href="https://github.com/Suukhii">Suukhii</a>) - [ Topical and Dummy page ], [ CSS for Dummy, Topical and Accesibilty Page ] </li>
             <li>Astrid (<a href="https://github.com/AstridLie">AstridLie</a>) - [ Accesibility Page ] </li>
