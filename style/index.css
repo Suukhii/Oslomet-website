@@ -1,4 +1,6 @@
 header{
+    background-image:url(https://uni.oslomet.no/se/wp-content/uploads/sites/11/2020/01/OsloMet_Logo_rgb_gul-300x178-1-e1579860225514.png) ;
+    background-repeat: no-repeat;
     background-color:purple;
     color: whitesmoke;
     text-align: center;
@@ -19,26 +21,27 @@ h1, h2 {
 /* Styling for main */
 main {
     max-width:100%;
-    margin: auto;
+    margin: 5px;
     padding: auto;
     text-align: left;
 }
 .grid-container {
     display: grid;
     column-gap: 10px;
-    grid-template-columns: auto 40vw auto 40px;
+    grid-template-columns: auto 40vw auto 10vw;
+    grid-auto-rows: auto auto;
     padding: 10px;
     background-color: blanchedalmond;
     background-image: url(https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/1/2/5/6/406521-2-nor-NO/75fe67662a99-oslomet-inngang-benjaminward-2400x1200.jpg);
-    height: 1000px;
+    height: row;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 .griditem{
-    background-color: rgba(168, 180, 247, 0.068);
-    color: #000;
+    background-color: rgba(247, 168, 237, 0.253);
+    color: black;
     border: 1px, solid, black;
     font-size: medium;
     padding: 10px;
@@ -47,32 +50,33 @@ main {
     outline-style: dashed;
     outline: #000;
 }
+
+.item2 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    background-image: url(https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/2/6/3/9/449362-60-nor-NO/7c469cc2c6a4-lererstudenter-emosjoner-2400.jpg);
+    background-color: blanchedalmond;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: left;
+    color: goldenrod;
+    text-shadow: #000;
+}
+img{
+    max-width: 300px;
+    max-height: fit-content;
+}
 .item1{
     grid-column: 1 / 2;
     grid-row: 1;
 }
-.item2{
-    grid-column: 3 / 4;
-    grid-row: 1;
+.li{
+    color: #000;
+    outline-color: aqua;
+    outline-color: invert;
 }
-.picture{
-    height: 100px;
-    width: 300px;
-
-}
-.image {
-    width: 10px; /* Set the width of the box */
-    height: 200px; /* Set the height of the box */
-    border: 1px solid #ccc; /* Add a border to the box */
-    overflow: hidden; /* Hide the overflowing content */
-  }
-  
-  /* Apply styles to the image inside the box */
-  .image img {
-    max-width: 100%; /* Set the maximum width of the image to 100% of its container */
-    height: auto; /* Maintain the aspect ratio of the image */
-    display: block; /* Remove extra spacing below the image */
-  }
 .top {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: beige;
