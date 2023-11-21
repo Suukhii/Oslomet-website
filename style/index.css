@@ -116,3 +116,9 @@ nav a:hover {
     /* Changes background color on hover */
     background-color: #FBDC01;
 }
+/* Responsive design: Adjusting width for articles on small screens */
+@media only screen and (max-width: 900px) {
+    .griditem {
+        width: 100%;
+    }
+}
