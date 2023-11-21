@@ -109,7 +109,7 @@ footer {
 }
 
 /* Responsive design: Adjusting width for articles on small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     article {
         width: 100%;
     }
@@ -130,7 +130,7 @@ footer {
 /* Overlay styles - fades in on hover */
 .overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 2;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
@@ -139,7 +139,7 @@ footer {
     opacity:0;
     color: white;
     font-size: 20px;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
 }
       
