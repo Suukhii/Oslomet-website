@@ -1,7 +1,7 @@
 /* Header styling */
 header {
     /* Sets background image to the left with a purple color overlay it also repeats the image all along the top */
-    background: url(https://uni.oslomet.no/se/wp-content/uploads/sites/11/2020/01/OsloMet_Logo_rgb_gul-300x178-1-e1579860225514.png) left purple;
+    background: url(https://github.com/Suukhii/Oslomet-website/blob/master/media/OsloMet_Logo.png?raw=true) left purple;
     /*The image is just the oslometlogo could not find anyone to give credit*/
     /* Sets text color to whitesmoke, centers text within the header and adds padding */
     color: whitesmoke;
@@ -49,7 +49,7 @@ main {
     grid-auto-rows: auto auto;
     /* Makes the backgroud image the image of the campus entrance */
     padding: 10px;
-    background: blanchedalmond url(https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/1/2/5/6/406521-2-nor-NO/75fe67662a99-oslomet-inngang-benjaminward-2400x1200.jpg) center / cover;
+    background: blanchedalmond url(https://github.com/Suukhii/Oslomet-website/blob/master/media/InngangOsloMet.jpg?raw=true) center / cover;
     /*found at: https://www.oslomet.no/om/nyheter/handelshoyskolen-doktorgradsprosjekt-offentlig fotograf ikke oppgitt*/
     /* repositions the picture */
     height: auto;
@@ -75,7 +75,7 @@ main {
     /* Specifies the picture in column 2 sets the picture as a css background and postions it */
     grid-column: 2 / span 2;
     grid-row: 1;
-    background: blanchedalmond url(https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/2/6/3/9/449362-60-nor-NO/7c469cc2c6a4-lererstudenter-emosjoner-2400.jpg) center / cover;
+    background: blanchedalmond url(https://github.com/Suukhii/Oslomet-website/blob/master/media/Studenter.jpg?raw=true) center / cover;
     /*fotograf vova130555@gmail.com*/
     position: relative;
     text-align: left;
